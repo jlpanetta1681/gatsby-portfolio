@@ -7,11 +7,11 @@ const Navigation = () => {
 ];
 
 return (
-<nav>
-    <ul>
-     {navItems.map(({ label, url }) => {
+  <nav>
+     <ul>
+       {navItems.map(({label, url}) => {
         <li> 
-            <a href={url}> {label} </a>
+            <a href={url}>{label}</a>
         </li>
 })}
     </ul>
