@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navigation = () => {
   const navItems = [
-    {label: "Learn more", url: "/about-me"},
+    {label: "Who Is This Guy Anyway?!", url: "/about-me"},
     {label: "My work", url: "/portfolio"}
 
   ]

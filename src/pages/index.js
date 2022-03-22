@@ -2,6 +2,7 @@ import * as React from 'react';
 import HomeHero from '../components/HomeHero';
 import Layout from "../components/Layout";
 import Typed from "react-typed"
+import profPic from "../images/prof-pic.jpeg"
 
 const IndexPage = () => {
   return (
@@ -21,14 +22,16 @@ const IndexPage = () => {
 
         <span className="text-slider-items"></span>
         <strong className="text-slider" style={{
-          display: "flex",
+          
         }}>
 
           <Typed
             strings={[
-              "Front End Developer",
-              "Software Engineer",
-              "On The Cutting Edge Of Software and Design",
+              "Web Developer",
+              "React Engineer",
+              "On The Cutting Edge Of Technology",
+              "Solving Todays Callenges",
+              "For Tomorrow's Web"
             ]}
             typeSpeed={80}
             backDelay={1100}
@@ -37,7 +40,18 @@ const IndexPage = () => {
           />
         </strong>
       </p>
-        <HomeHero title="" subtitle="Welcome to your portfolio!!" />
+
+      <div classname="imageBox" style={{
+         display: "flex",
+         justifyContent: "center",
+      }}>
+        
+      <img src={profPic} alt="profPic"></img>
+      </div>
+        <HomeHero style={{
+             fontSize: "2.5rem",
+
+        }} title="" subtitle="If you need a web developer, we should talk!" />
     </Layout>
   )
 }

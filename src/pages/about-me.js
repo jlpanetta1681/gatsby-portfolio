@@ -16,7 +16,7 @@ const AboutMePage = () => {
         height: "480px"
         }}>
 
-        Cupidatat velit esse nostrud deserunt enim velit dolore do elit veniam sunt cillum. Nulla nulla enim Lorem consectetur labore nulla minim. Officia non elit ad ad anim amet incididunt tempor enim sit ea. Exercitation commodo eiusmod incididunt sint id est dolore exercitation non pariatur. Nostrud sit sint adipisicing dolor eiusmod ex. Ad veniam est tempor in in ut qui aliquip ex quis
+I am a self driven, highly motivated, Constant and forever learner. My passion lies in designing and building highly scalable, accessible applications and websites for the todays business and strategic needs. I am a recent Graduate from Lambda School online for full stack web development and technical interviewing. I am currently searching for a role that will provide a growth environment that will foster the great developer in me. MongoDB and Express , as well as React and Node have become my favorite tools in my toolkit. and I continue to learn more about them each and every day as you will see in my ever changing projects page. Have a look around. Learn a little about me and if you like what you see then feel free to cliock the link to my resume, github, and linkedin profiles to learn more. I am open to work and actively pursuing my Web development career.
         </section>
 
         <div className="aboutMeLowerPics" style={{
