@@ -1,12 +1,13 @@
 import React from 'react'
+import Layout from "../components/Layout"
 
 const Portfolio = () => {
   return (
-    <div>
+    <Layout>
       <h1>
         Portfolio
       </h1>
-    </div>
+    </Layout>
   )
 }
 
